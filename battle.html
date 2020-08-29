@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Battle</title>
+    <link rel="stylesheet" href="css/battle.css">
+</head>
+
+<body id="grid-container">
+    <header id="header">You must battle to save the world!</header>
+    <div id="pokemonfight">
+        <div id="userhealth" >
+        </div>
+        <div id="enemy-attack"></div>
+        <div id="attack-buttons" >
+            <div id="attack1" onclick="Attack1()" >
+                <button type="button">Attack 1</button>
+            </div>
+            <div id="attack2"  onclick="Attack2()" >
+                <button type="button">Attack 2</button>
+            </div>
+            <div id="attack3"  onclick="Attack3()" >
+                <button type="button">Attack 3</button>
+            </div>
+            <div id="attack4"  onclick="Attack4()" >
+                <button type="button">Attack 4</button> 
+            </div>
+        </div>
+        <div id="VS">
+            <h1>VS</h1>
+        </div>
+        <div id="enemyhealth">
+
+        </div>
+        <div id="pokemonenemy">
+            <img src="https://toppng.com/uploads/preview/mewtwo-v-mewtwo-11563570711uoxdl3dj0l.png" alt="Mewtwo">
+            <p>The Powerful Mewtwo Attacks</p>
+        </div>
+    </div>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+<script src="js/selection.js"></script>
+
+</html>

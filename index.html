@@ -1,1 +1,29 @@
-Hello world
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose your pokemon</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="grid-container" >
+    <header id="header">Its time to battle choose your pokemon</header>
+    <div id="pokemon-options" >
+    <div id="charizard" class="pokemon" onclick= "select('charizard')">
+        <img src="https://usercontent1.hubstatic.com/13812156_f520.jpg" alt="Charizard">
+        <h2>Choose the fire Pokemon Charizard</h2>
+    </div>
+    <div id="raichu" class="pokemon" onclick= "select('raichu')">
+        <img src="https://static.pokemonpets.com/images/monsters-images-300-300/26-Raichu.png" alt="Raichu">
+        <h2>Choose the electric Pokemon Raichu</h2>
+    </div>
+    <div id="blastoise" class="pokemon" onclick= "select('blastoise')">
+        <img src="https://www.pngitem.com/pimgs/m/129-1290996_blastoise-png-vector-clipart-psd-pokemon-blastoise-transparent.png" alt="blastoise">
+        <h2>Choose the water pokemon Blastoise</h2>
+    </div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+<script src="js/app.js"></script>
+
+</html>
